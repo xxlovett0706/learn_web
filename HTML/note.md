@@ -1,72 +1,5 @@
 # 走进前端之『HTML』篇
 
-## head 三大关键标签
-
-`title` `keywords` 和 `description`
-
-```html
-<html>
-    <head>
-        <title></title>
-        <meta name="keywords" content="" />
-        <meta name="description" content="" />
-    </head>
-    <body></body>
-</html>
-```
-
-`title` 标题
-主页： 网站名称 + 主要的关键字/关键字的描述
-详情页：详情名称 + 网站名称 + 简介
-列表页：分类名称 + 关键字 + 网站名称
-文章页：标题 + 分类 + 网站名称
-
-`keywords` 关键字
-100 个字符，用`,`隔开，网站名称 + 分类信息 + 网站名称，越靠前权重越高。
-
-`description` 描述信息
-80-120 个汉字，综合 `title` + `keywords`的简单描述
-
-### 搜索引擎认知的优先级
-
-`title` > `description` > `keywords`
-
-## html 语言设置
-
-```html
-<html lang="zh-CN"></html>
-```
-
-en 英文
-zh-CN 简体中文
-zh-Hans zh-CHS 简体中文
-zh-Hant zh-CHT 繁体中文
-
-## 编码字符集
-
-```html
-<html lang="zh-CN">
-    <head>
-        <meta charset="UTF-8" />
-    </head>
-</html>
-```
-
-GB2312 中国信息处理国家标准码 简体中文
-GBK 汉字扩展规范 扩大汉字收录，增加了繁体中文和藏蒙维等少数民族的文字
-UTF-8 Unicode 万国码
-
-## html 声明
-
-`<!DOCTYPE html>`
-
-```javascript
-console.log(document.compatMode);
-```
-
-CSS1Compat W3C 标准模式
-BackCompat 怪异模式
-
 ## Heading 标签
 
 ```html
@@ -77,8 +10,6 @@ BackCompat 怪异模式
 <h5>h5</h5>
 <h6>h6</h6>
 ```
-
-浏览器默认字体大小 16px
 
 特点：
 
