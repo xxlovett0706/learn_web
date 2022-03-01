@@ -7,24 +7,51 @@
         <meta name="description" content="" />
     </head>
     <body>
-        <h1>h1</h1>
-        <h2>h2</h2>
-        <h3>h3</h3>
-        <h4>h4</h4>
-        <h5>h5</h5>
-        <h6>h6</h6>
-        <p style="text-indent: 2em">段落</p>
-        <strong>我是Strong标签</strong>
-        <b>我是b标签</b>
-        <del>我是del标签</del>
-        <ins>我是ins标签</ins>
-        <address>我的住址</address>
-        <img src="" alt="" />
-        <a href="https://www.baidu.com">百度</a>
-        <a href="tel:17612341111">联系商家</a>
-        <a href="mailto:example@163.com">发邮件</a>
-        <a href="javascript:;"></a>
+        <!-- caption 标题 -->
+        <!-- tr table row -->
+        <!-- th 表头单元格 -->
+        <!-- td 单元格 -->
+        <!-- thead tfoot tbody-->
+        <table border="1" cellpadding="10" cellspacing="10">
+            <caption>
+                VIP班级学生联络表
+            </caption>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>姓名</th>
+                    <th>年龄</th>
+                    <th>电话号码</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td rowspan="2">MasK</td>
+                    <td>28</td>
+                    <td>18097331234</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td colspan="2" align="center">18</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">就是一行</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        
     </body>
+    <frameset rows="10%, 90%">
+        <frame src="top.html" />
+        <frameset cols="20%, 80%">
+            <frame src="left.html" />
+            <frame name="mainFrame" src="main.html" />
+        </frameset>
+    </frameset>
     <script type="text/javascript">
         console.log(document.compatMode);
     </script>

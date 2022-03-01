@@ -158,3 +158,92 @@ a 标签不能嵌套 a 标签
 
 ## sup sub 标签
 
+inline 内联元素
+
+sup superscripted
+
+sub subscripted
+
+## span
+
+## ol ul li
+
+order list
+
+type 属性
+start 属性必须是数字
+reversed 倒叙
+
+unorder list
+
+type disc square circle
+
+都是块级元素
+
+## dl dt dd
+
+definition list 定义列表
+
+```html
+<dl>
+    <dt>Firefox</dt>
+    <dd>
+        A free, open source, cross-platform, graphical web browser developed by
+        the Mozilla Corporation and hundreds of volunteers.
+    </dd>
+
+    <!-- other terms and definitions -->
+</dl>
+```
+
+## table
+
+```html
+<table border="1">
+    <caption>
+        VIP班级学生联络表
+    </caption>
+    <tr>
+        <th>ID</th>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>电话号码</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>MasK</td>
+        <td>28</td>
+        <td>18097331234</td>
+    </tr>
+</table>
+```
+
+border 属性
+cellpadding 单元格内边距
+cellspacing 单元格外边距
+
+colspan 列合并
+rowspan 行合并
+
+align="left center right" 并不推荐使用
+
+th 默认 left
+
+加载顺序
+thead -> tfoot -> tbody
+
+## frameset 废弃
+
+```html
+<frameset rows="10%, 90%">
+    <frame src="top.html" />
+    <frameset cols="20%, 80%">
+        <frame src="left.html" />
+        <frame name="mainFrame" src="main.html" />
+    </frameset>
+</frameset>
+```
+
+缺点：1. 搜索引擎不友好 2. 数据交互很差 3. 请求过多 4. 不能写 body
+
+## iframe
