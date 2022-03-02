@@ -247,3 +247,16 @@ thead -> tfoot -> tbody
 缺点：1. 搜索引擎不友好 2. 数据交互很差 3. 请求过多 4. 不能写 body
 
 ## iframe
+
+内联框架
+
+内联块级元素
+
+缺点：
+1. 搜索引擎不友好
+2. 滚动条
+3. 数据交互很差
+
+属性
+freameborder
+scrolling yes no auto
