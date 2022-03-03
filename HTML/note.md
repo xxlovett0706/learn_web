@@ -138,3 +138,12 @@ th 默认 left
 属性
 freameborder
 scrolling yes no auto
+
+## md5
+
+不可逆的加密算法
+加密不需要额外密钥
+
+## input 
+
+

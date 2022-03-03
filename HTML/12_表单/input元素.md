@@ -6,7 +6,6 @@
 <form>
     <input type="text" />
     <input type="password" />
-    
 </form>
 ```
 
@@ -17,6 +16,4 @@
 
 maxlength 属性 不管中文还是英文、数字只认字符个数
 
-前端验证 长度 和 字符
 
-后端也要验证 对比数据库
