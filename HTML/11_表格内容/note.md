@@ -35,6 +35,17 @@
 </table>
 ```
 
+### 各个元素 display 属性的值
+
+`<table>` table
+`<caption>` table-caption
+`<tr>` table-row
+`<th>` table-cell
+`<td>` table-cell
+`<thead>` table-header-group
+`<tbody>` table-row-group
+`<tfoot>` table-footer-group
+
 ### 合并单元格
 
 `<td>`设置 rowspan 和 colspan 属性可以合并单元格。
@@ -42,6 +53,15 @@
 ## 不常用元素
 
 `<colgroup>` 和`<col>`
+
+```html
+<colgroup>
+    <col class="red" span="1" />
+    <col class="green" span="2" />
+</colgroup>
+```
+
+用来定义表格中的列
 
 ## 注意事项
 

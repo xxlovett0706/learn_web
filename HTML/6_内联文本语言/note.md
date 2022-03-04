@@ -72,4 +72,6 @@ Idiomatic Text 惯用文本，表示西方文本中的技术术语，音译，�
 
 ## 不常用元素
 
-cite q s code sub sup bdi bdo abbr data dfn kbd rp rt ruby samp small time u var wbr
+### ruby rp rt
+
+cite q s code sub sup bdi bdo abbr data dfn kbd   samp small time u var wbr

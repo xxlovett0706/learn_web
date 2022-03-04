@@ -97,6 +97,24 @@
 
 ## `<link>`
 
+```html
+<link rel="stylesheet" href="style/main.css" />
+```
+
 ## `<style>`
 
+```html
+<style>
+    .main {
+        background-color: #999;
+    }
+</style>
+```
+
 ## `<base>`
+
+```html
+<base href="https://www.example.com" />
+```
+
+定义文档所有相对 URL 的根 URL。
