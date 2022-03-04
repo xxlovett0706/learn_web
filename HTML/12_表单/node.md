@@ -1,5 +1,7 @@
 # 表单
 
+非常重要的元素，用于数据交互。
+
 ## 常用元素
 
 ### `<form>`
@@ -26,7 +28,7 @@ Form 表单元素，用来提交表单。
 
 ### `<input>`
 
-Inline-Block 内联块级元素
+inline-block 内联块级元素
 
 #### 用法
 
@@ -69,16 +71,12 @@ Inline-Block 内联块级元素
 
 如果不加`value`属性，默认值是`提交`
 
-readonly 只读属性，不可输入，表单提交时，正常提交。
-
-disable 不可用属性，不可输入，表单提交时，数据不提交。
-
 ### `<button>`
 
 ### `<select>`、`<optgroup>` 和 `<option>`
 
-`<select>` Inline-Block 内联块级元素
-`<option>` Block 块级元素
+`<select>` inline-block 内联块级元素
+`<option>` block 块级元素
 
 ```html
 <select name="lang">
@@ -93,6 +91,8 @@ disable 不可用属性，不可输入，表单提交时，数据不提交。
 
 ### `<textarea>`
 
+inline-block 内联块级元素
+
 ```html
 <textarea name="remarks"></textarea>
 ```
@@ -101,17 +101,22 @@ disable 不可用属性，不可输入，表单提交时，数据不提交。
 
 所以获取里面的值用 value 而不是 innerHTML
 
-### `<label>` 和 其他表单元素
+### `<label>`
 
-Inline 内联元素
+inline 内联元素
 
-属性
+#### for 属性
 
-for 对应 id 值
+for 属性 对应 id 值
+
+```html
+<label for="username">用户名</label>
+<input id="username" type="text" name="username" />
+```
 
 ### `<fieldset>` `<legend>`
 
-表单分组，都是 Block 块级元素
+表单分组，都是 block 块级元素
 
 ```html
 <fieldset>
@@ -123,9 +128,13 @@ for 对应 id 值
 </fieldset>
 ```
 
-## 注意事项
+### 注意事项
 
 placeholder 可以用 js 模拟实现更好的效果。
+
+readonly 只读属性，不可输入，表单提交时，正常提交。
+
+disable 不可用属性，不可输入，表单提交时，数据不提交。
 
 ## 不常用元素
 

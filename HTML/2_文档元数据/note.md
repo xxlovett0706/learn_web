@@ -4,7 +4,7 @@
 
 ## `<head>`
 
-`<head>`元素用来包裹不同元数据,本身并没有
+用来包裹不同元数据,本身并没有更多内容。
 
 `<head>`元素里包含`<title>`、`<meta>`、`<link>`、`<style>`、`<script>`、`<noscript>`、`<base>`和`<command>`8 种元素，至少包含`<title>`元素。
 
@@ -50,9 +50,9 @@
 
 来告诉浏览器该用哪种字符集解析。
 
-    -   GB2312 中国信息处理国家标准码 简体中文
-    -   GBK 汉字扩展规范 扩大汉字收录，增加了繁体中文和藏蒙维等少数民族的文字
-    -   UTF-8 Unicode 万国码
+-   GB2312 中国信息处理国家标准码 简体中文
+-   GBK 汉字扩展规范 扩大汉字收录，增加了繁体中文和藏蒙维等少数民族的文字
+-   UTF-8 Unicode 万国码
 
 #### http-equiv 和 content
 
@@ -70,10 +70,10 @@
 等同于 设置 HTTP 头部信息
 
 -   content-security-policy 设置允许的内容策略
--   content-type 如果要设置这个属性，则必须是 text/html; charset=utf-8，推荐用 meta charset 代替
+-   content-type 如果要设置这个属性，则必须是 text/html; charset=utf-8，推荐用`<meta>`元素 charset 属性 代替
 -   default-style 设置默认 CSS 样式表（暂时未使用过）
--   x-ua-compatible 如果指定，则 content 属性必须具有值 "IE=edge"。
--   refresh 重新加载 单位为秒，后可根 url`300; url=https://www.baidu.com`
+-   x-ua-compatible 如果指定，则 content 属性必须具有值 `"IE=edge"`。
+-   refresh 重新加载，单位为秒，后可跟 url 字段，如：`300; url=https://www.baidu.com`
 
 #### name 和 content
 
@@ -113,8 +113,8 @@
 
 ## `<base>`
 
+定义文档所有相对 URL 的根 URL。
+
 ```html
 <base href="https://www.example.com" />
 ```
-
-定义文档所有相对 URL 的根 URL。

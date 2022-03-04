@@ -1,36 +1,60 @@
 # 文本内容
 
-全是 Block 块级元素
+全是 block 块级元素
 
 ## 常用元素
 
 ### `<div>`
 
-Content Division 内容划分元素
+content division 内容划分元素
+
+```html
+<div></div>
+```
 
 ### `<p>`
 
-Paragraph 段落元素
+paragraph 段落元素
+
+```html
+<p>这是一个段落</p>
+```
 
 ### `<ul>` 和 `<li>`
 
-Unordered List 无序列表元素
+unordered list 无序列表元素
 
-List Item 列表项元素
+list item 列表项元素
+
+```html
+<ul>
+    <li>JavaScript</li>
+    <li>Rust</li>
+    <li>MySQL</li>
+</ul>
+```
 
 ### `<ol>` 和 `<li>`
 
-Order List 有序列表元素
+order list 有序列表元素
 
-List Item 列表项元素
+list item 列表项元素
+
+```html
+<ol>
+    <li>娱乐</li>
+    <li>学习</li>
+    <li>工作</li>
+</ol>
+```
 
 ### `<dl>`、`<dt>`和`<dd>`
 
-Description List 描述列表
+description list 描述列表
 
-Description Term 描述术语
+description term 描述术语
 
-Description Detail 描述详情
+description detail 描述详情
 
 ```html
 <dl>
