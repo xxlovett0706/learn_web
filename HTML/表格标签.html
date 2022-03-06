@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <title>表格</title>
+    </head>
+    <body>
+        <table border="1">
+            <!-- 表格标题 -->
+            <caption>
+                表格标题
+            </caption>
+            <!-- 表格表头 -->
+            <thead>
+                <tr>
+                    <th>标签</th>
+                    <th>元素类型</th>
+                    <th>备注</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>table</td>
+                    <td>table</td>
+                    <!-- 行合并 -->
+                    <td rowspan="7">无</td>
+                </tr>
+                <tr>
+                    <td>caption</td>
+                    <td>table-caption</td>
+                </tr>
+                <tr>
+                    <td>tr</td>
+                    <td>table-row</td>
+                </tr>
+                <tr>
+                    <td>th</td>
+                    <td>table-cell</td>
+                </tr>
+                <tr>
+                    <td>thead</td>
+                    <td>table-header-group</td>
+                </tr>
+                <tr>
+                    <td>tbody</td>
+                    <td>table-row-group</td>
+                </tr>
+                <tr>
+                    <td>tfoot</td>
+                    <td>table-footer-group</td>
+                </tr>
+            </tbody>
+            <!-- 表格页脚 -->
+            <tfoot>
+                <tr>
+                    <!-- 列合并 -->
+                    <td colspan="3">
+                        <p>特点：</p>
+                        <p>td设置 rowspan 和 colspan 属性可以合并单元格。</p>
+                        <p>加载顺序：thead -> tfoot -> tbody</p>
+                        <p>
+                            设置thead和tfoot可以避免tbody内容过多，优先加载页眉和页脚内容。
+                        </p>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <!-- 不常用标签 -->
+        <p>不常用标签：colgroup、col</p>
+    </body>
+</html>

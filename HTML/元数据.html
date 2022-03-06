@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <title>元数据</title>
+        <!-- charset -->
+        <meta charset="UTF-8" />
+        <!-- http-equiv 和 content -->
+        <meta
+            http-equiv="content-security-policy"
+            content="default-src 'self'"
+        />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta
+            http-equiv="default-style"
+            content="the document's preferred stylesheet"
+        />
+        <meta http-equiv="x-ua-compatible" content="IE=edge" />
+        <meta
+            http-equiv="refresh"
+            content="30; url=https://developer.mozilla.org/"
+        />
+        <!-- name 和 content -->
+        <meta name="author" content="MasK" />
+        <meta name="keywords" content="关键字" />
+        <meta name="description" content="描述" />
+        <meta name="generator" content="VSCode" />
+        <meta name="referrer" content="no-referrer-when-downgrade" />
+        <base href="https://developer.mozilla.org/" />
+    </head>
+    <body>
+        <!-- 元数据 -->
+        <dl>
+            <dt>元数据</dt>
+            <dd>含有页面的相关信息</dd>
+        </dl>
+        <!-- meta -->
+        <dl>
+            <dt>meta 标签</dt>
+            <dd>表示那些不能由其它 HTML 元相关元素表示的任何元数据信息。</dd>
+        </dl>
+        <p>meta charset 属性</p>
+        <ul>
+            <li>GB2312 中国信息处理国家标准码 简体中文</li>
+            <li>
+                GBK 汉字扩展规范
+                扩大汉字收录，增加了繁体中文和藏蒙维等少数民族的文字
+            </li>
+            <li>UTF-8 Unicode 万国码</li>
+        </ul>
+        <p>meta http-equiv 和 content 属性</p>
+        <p>等同于 设置 HTTP 头部信息</p>
+        <ul>
+            <li>content-security-policy 设置允许的内容策略</li>
+            <li>
+                content-type 如果要设置这个属性，则必须是 text/html;
+                charset=utf-8，推荐用 charset 属性代替
+            </li>
+            <li>default-style 设置默认 CSS 样式表（暂时未使用过）</li>
+            <li>
+                x-ua-compatible 如果指定，则 content 属性必须具有值"IE=edge"
+            </li>
+            <li>refresh 重新加载，单位为秒，后可跟 url 字段</li>
+        </ul>
+        <p>meta name 和 content</p>
+        <p>
+            用于提供 key-value 对形式的文档元数据，name
+            属性为元数据条目提供名称，而content 属性提供值。
+        </p>
+        <ul>
+            <li>author 作者</li>
+            <li>keywords 网站关键字</li>
+            <li>description 网站描述</li>
+            <li>generator 生成此网页的软件标识</li>
+            <li>
+                referrer 设置当前文档发出 HTTP Referer 请求头 默认
+                no-rederrer-when-downgrade
+            </li>
+        </ul>
+        <!-- base -->
+        <dl>
+            <dt>base 标签</dt>
+            <dd>定义文档所有相对 URL 的根 URL。</dd>
+        </dl>
+    </body>
+</html>

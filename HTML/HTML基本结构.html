@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <title>HTML 基本结构</title>
+    </head>
+    <body>
+        <!-- html标签 lang属性 -->
+        <dl>
+            <dt>html标签 lang属性</dt>
+            <dd>将有助于屏幕阅读技术确定要陈述的正确语言。</dd>
+        </dl>
+        <p>常用属性值有：</p>
+        <ul>
+            <li>en（英文）</li>
+            <li>zh-CN（中文）</li>
+            <li>zh-Hans/zh-CHS（简体中文）</li>
+            <li>zh-Hant/zh-CHT（繁体中文）</li>
+        </ul>
+        <!-- 浏览器渲染模式 -->
+        <dl>
+            <dt>浏览器渲染模式</dt>
+            <dd>
+                存在怪异模式、接近标准模式和标准模式三种模式。浏览器使用文件开头的DOCTYPE来决定用怪异模式处理或标准模式处理。
+            </dd>
+        </dl>
+        <p>常见的渲染模式：</p>
+        <ul>
+            <li>CSS1Compat W3C标准模式</li>
+            <li>BackCompat 怪异模式</li>
+        </ul>
+
+        <script type="text/javascript">
+            // 查看当前声明模式
+            console.log(document.compatMode);
+        </script>
+    </body>
+</html>
